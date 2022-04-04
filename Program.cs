@@ -6,7 +6,13 @@ namespace EmployeeWage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Empolyee Wage Computation Program\n");
+            static void Main(string[] args)
+            {
+                Console.WriteLine("Welcome to Empolyee Wage Computation Program\n");
+                EmpAttendance.GetEmpAttendance();
+                EmployeeWage.GetEmpWage();
+                Console.ReadLine();
+            }
+
         }
     }
-}
