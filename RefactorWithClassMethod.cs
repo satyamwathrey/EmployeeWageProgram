@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage
 {
-    class RefactorWithClassMetho
+    class RefactorWithClassMethod
     {
         const int EMP_FULLTIME = 1, EMP_PARTTIME = 2, EMP_WAGE_PER_HR = 20, WORKING_DAYS_PER_MONTH = 20, MAX_HRS_PER_MONTH = 100;
         static int daily_Emp_Wage = 0, empHrs = 0, total_Emp_Wage = 0, total_Emp_Hrs = 0, day = 1;
@@ -37,4 +37,5 @@ namespace EmployeeWage
             Console.WriteLine("Total Days: {0}, Total working hours: {1}", (day - 1), total_Emp_Hrs);
             Console.WriteLine("Total Employee Wage is: " + total_Emp_Wage);
         }
+    }
 }
