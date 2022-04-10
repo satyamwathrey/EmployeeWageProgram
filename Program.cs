@@ -46,6 +46,13 @@ namespace EmployeeWage
             //Console.WriteLine(deloitte.ToString());
 
             //UC-10 call methods
+            //EmpWageBuilderArray empWageBuilder = new EmpWageBuilderArray();
+            //empWageBuilder.AddCompanyEmpWage("Google", 10, 4, 20);
+            //empWageBuilder.AddCompanyEmpWage("Microsoft", 20, 5, 20);
+            //empWageBuilder.AddCompanyEmpWage("Deloitte", 30, 3, 30);
+            //empWageBuilder.ComputeEmpWage();
+
+            //UC-11 call methods
             EmpWageBuilderArray empWageBuilder = new EmpWageBuilderArray();
             empWageBuilder.AddCompanyEmpWage("Google", 10, 4, 20);
             empWageBuilder.AddCompanyEmpWage("Microsoft", 20, 5, 20);
