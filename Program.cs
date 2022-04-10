@@ -67,7 +67,14 @@ namespace EmployeeWage
             //empWageBuilder.AddCompanyEmpWage("Deloitte", 30, 3, 30);
             //empWageBuilder.ComputeEmpWage();
 
-            //UC-13 call methods
+              //UC-13 Store the Dail Wage along with the Total WageStore the Daily Wage along with the Total Wage
+            //EmpWageBuilderList empWageBuilder = new EmpWageBuilderList();
+            //empWageBuilder.AddCompanyEmpWageToList("Google", 10, 4, 20);
+            //empWageBuilder.AddCompanyEmpWageToList("Microsoft", 20, 5, 20);
+            //empWageBuilder.AddCompanyEmpWageToList("Deloitte", 30, 3, 30);
+            //empWageBuilder.ComputeEmpWage();
+
+            //UC-14 Ability to get the Total Wage when queried by Company
             EmpWageBuilderList empWageBuilder = new EmpWageBuilderList();
             empWageBuilder.AddCompanyEmpWageToList("Google", 10, 4, 20);
             empWageBuilder.AddCompanyEmpWageToList("Microsoft", 20, 5, 20);
